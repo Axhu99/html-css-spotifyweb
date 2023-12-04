@@ -1,0 +1,56 @@
+/*? CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+}
+
+
+/*? Utily */
+
+.flex{
+    display: flex;
+}
+
+.button{
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/* ? Generic */
+
+/* ! Main */
+
+main{
+    overflow: auto;
+    height: calc(100vh - 200px);
+    width: calc(100vw - 50px);
+    background-color: #141922;
+}
+
+footer{
+    background-color: #282828;
+    height: 100px;
+}
+
+.sidebar{
+    height: calc(100vh - 100px);
+    width: 50px;
+    background-color: #000;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: #080B12;
+    height: 100px;
+    width: calc(100vw - 50px);
+    text-align: end;
+    padding-top: 20px;  /* ! solo per vedere il bottone cancellare!! */
+}
