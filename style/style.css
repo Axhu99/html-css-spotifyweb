@@ -25,6 +25,11 @@ a{
     text-transform: uppercase;
 }
 
+img{
+    width: 100%;
+    display: block;
+}
+
 /*? Utily */
 
 .flex{
@@ -106,4 +111,45 @@ footer{
     
 } */
 
+/* ! playlist-main */
 
+.container{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.deck-title{
+    margin-bottom: 20px;
+}
+
+.deck{
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.card{
+    flex-basis: 50%;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+.card-profile{
+    margin-bottom: 20px;
+}
+
+.card-info{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.card-title{
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    color: #727579;
+}
+
+.b-radius50{
+    border-radius: 50%;
+}
