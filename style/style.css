@@ -19,6 +19,12 @@ li{
     margin: 10px 0 ;
 }
 
+a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 /*? Utily */
 
 .flex{
@@ -28,7 +34,8 @@ li{
 .button{
     border: 1px solid #fff;
     border-radius: 20px;
-    padding: 10px 20px;
+    padding: 10px 30px;
+    font-size: 12px;
 }
 
 /* ? Generic */
@@ -57,12 +64,16 @@ main{
 
 header{
     background-color: #080B12;
-    height: 100px;
+    height: 80px;
+    padding-right: 20px;
+
+    justify-content: flex-end;
+    align-items: center;
+
     position: sticky;
     top: 0;
     left: 0;
     bottom: 0;
-
 }
 
 footer{
@@ -75,4 +86,24 @@ footer{
 .playlist{
     display: none;
 }
+
+/* ? main */
+
+/* ! header */
+
+
+/* ! nav-bar */
+
+.navbar-list{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* .navbar-list li{
+    flex-basis: 25%;
+    
+} */
+
 
