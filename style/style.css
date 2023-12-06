@@ -87,7 +87,7 @@ main{
 header{
     background-color: #080B12;
     opacity: 0.9;
-    height: 80px;
+    height: 100px;
     padding-right: 20px;
 
     justify-content: flex-end;
@@ -159,21 +159,27 @@ img.icon-profile{
 
 /* ? main */
 
+/* ! header */
+
+header .button{
+    font-size: 20px;
+}
+
 /* ! nav-bar */
 
 .navbar-list{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
     padding: 10px;
     opacity: 0.5;
+    font-size: 18px;
+    text-transform: uppercase;
 }
 
-/* .navbar-list li{
-    flex-basis: 25%;
-    
-} */
+.navbar-list li{
+    padding: 10px;
+}
 
 /* ! playlist-main */
 
@@ -227,7 +233,6 @@ img.icon-profile{
 
 .song{
     flex-basis: 20%;
-    justify-content: center;
     align-items: center;
 }
 
@@ -275,9 +280,15 @@ img.icon-profile{
 
 .control-volume{
     flex-basis: 20%;
-    gap: 5px;
-    justify-content: center;
+    gap: 10px;
+    justify-content: flex-end;
     align-items: center;
+}
+
+.progress-volumebar{
+    width: 100px;
+    height: 5px;
+    background-color: #dedede;
 }
 
 .volumebar{
