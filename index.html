@@ -14,35 +14,80 @@
         <!-- sibar laterale -->
         <div class="sidebar flex">
             <!-- parte sopra sidebar-->
-            <div class="top-sidebar">
-                <picture id="logo">
-                    <img src="img/logo-small.svg" alt="logo spotify">
-                    <img class="d-none" src="img/logo.svg" alt="logo spotify">
-                </picture>
+            <nav class="top-sidebar">
+                <div id="logo">
+                    <img class="d-m-none" src="img/logo-small.svg" alt="logo spotify">
+                    <img class="d-none d-m-block" src="img/logo.svg" alt="logo spotify">
+                </div>
                 <ul>
-                    <li><a href="#"><img src="img/home.svg" alt="icon home"></a></li>
-                    <li><a href="#"><img src="img/search.svg" alt="icon search"></a></li>
-                    <li><a href="#"><img src="img/libreria.svg" alt="icona libreria"></a></i></li>
+                    <li>
+                        <a href="#" class="flex">
+                            <img class="icone" src="img/home.svg" alt="icon home">
+                            <span class="navbar-text d-none d-m-inblock">home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex">
+                            <img class="icone" src="img/search.svg" alt="icon search">
+                            <span class="navbar-text d-none d-m-inblock">Cerca</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="flex">
+                            <img class="icone" src="img/libreria.svg" alt="icona libreria">
+                            <span class="navbar-text d-none d-m-inblock">La tua libreria</span>
+                        </a>
+                    </li>
                 </ul>
 
-                <!-- playlist che compare dopo i 639px -->
-                <ul class="playlist">
-                    <li class="title-playlist">playlist</li>
-                    <li><i class="fa-solid fa-square-plus"></i> crea playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
-                    <li>Nome Playlist</li>
+                <!-- playlist che compare dopo i 720px -->
+                <ul class="playlist d-none d-m-inblock">
+                    <li id="title-playlist">playlist</li>
+                    <li>
+                        <a href="#" class="flex">
+                            <i class="fa-solid fa-square-plus fa-4x"></i>
+                            <span class="margin-left10">Crea Playlist</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <span>Nome Playlist</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Nome Playlist</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Nome Playlist</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>Nome Playlist</span>
+                        </a>
+                    </li>
                 </ul>
-            </div>
+            </nav>
 
             <!-- parte sotto sidebar -->
             <div class="bot-sidebar"> 
                 <ul>
-                    <li><a href="#"><img src="img/download.svg" alt="icon download"></a></li>
-                    <li ><a href="#"><img class="icon-profile bgc-grey" src="img/profile.svg" alt="icon profile"></a></li>
+                    <li>
+                        <a href="#" class="flex">
+                            <img class="icon-profile" src="img/download.svg" alt="icon download">
+                            <span class="d-none d-m-inblock">Installa app</span>
+                        </a>
+                    </li>
+                    <li class="account">
+                        <a href="#" class="flex">
+                            <img class="icon-profile bgc-grey" src="img/profile.svg" alt="icon profile">
+                            <span class="d-none d-m-inblock">Xhulio Dreni</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
             

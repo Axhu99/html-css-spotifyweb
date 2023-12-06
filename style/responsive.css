@@ -1,0 +1,31 @@
+/* ********* min-width 720 ********* */
+
+@media screen and (min-width: 720px){
+    
+    .sidebar{
+        flex-basis: 300px;
+    }
+
+    .d-m-none{
+        display: none;
+    }
+
+    .d-m-block{
+        display: block;
+    }
+
+    .d-m-inblock{
+        display: inline-block;
+    }
+
+    .account{
+        border-top: 2px solid gray;
+        padding-top: 10px;
+    }
+}
+
+/* ********* min-width 1000 ********* */
+
+@media screen and (min-width: 1000px){
+    
+}
