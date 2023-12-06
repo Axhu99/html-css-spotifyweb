@@ -28,13 +28,18 @@
 
 @media screen and (min-width: 970px){
 
-    .container{
-        max-width: 950px;
-    }
-
     .card{
         flex-basis: 25%;
     }
 
 
+}
+
+/* ********* min-width 1440 ********* */
+
+@media screen and (min-width: 1440px){
+
+    .card{
+        flex-basis: calc(100% / 6);
+    }
 }

@@ -177,9 +177,8 @@ img.icon-profile{
 
 /* ! playlist-main */
 
-.container{
-    max-width: 450px;
-    margin: 0 auto;
+.playlist-main{
+    padding: 20px;
 }
 
 .deck-title{
