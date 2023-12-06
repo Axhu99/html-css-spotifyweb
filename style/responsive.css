@@ -24,8 +24,17 @@
     }
 }
 
-/* ********* min-width 1000 ********* */
+/* ********* min-width 970 ********* */
 
-@media screen and (min-width: 1000px){
-    
+@media screen and (min-width: 970px){
+
+    .container{
+        max-width: 950px;
+    }
+
+    .card{
+        flex-basis: 25%;
+    }
+
+
 }
