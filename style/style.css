@@ -172,13 +172,16 @@ header .button{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    opacity: 0.5;
     font-size: 18px;
     text-transform: uppercase;
 }
 
 .navbar-list li{
     padding: 10px;
+}
+
+a span{
+    opacity: 0.5;
 }
 
 /* ! playlist-main */
@@ -292,6 +295,7 @@ header .button{
     height: 100%;
     width: 30%;
     background-color: red;
+    position: relative;
 }
 
 .control-volume{
@@ -311,6 +315,22 @@ header .button{
     height: 100%;
     width: 80%;
     background-color: green;
+    position: relative;
+}
+
+.marker{
+    display: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #000;
+
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+    translate: 50% -50%;
+
 }
 
 /* ? hover */
@@ -319,5 +339,23 @@ header .button{
     display: flex;
 }
 
+header.upgrade:hover a{
+    scale: 1.3rem;
+}
+
+a:hover span{
+    opacity: 1;
+}
 
 
+.progress-volumebar:hover .marker{
+    display: block;
+}
+
+.progress-bar:hover .marker{
+    display: block;
+}
+
+.song-title:hover h3{
+    text-decoration: underline;
+}
